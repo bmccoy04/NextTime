@@ -1,0 +1,19 @@
+{
+  "name": "nexttime",
+  "version": "1.0.0",
+  "description": "Remind me next time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmccoy04/NextTime.git"
+  },
+  "author": "Bryan McCoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmccoy04/NextTime/issues"
+  },
+  "homepage": "https://github.com/bmccoy04/NextTime#readme"
+}
