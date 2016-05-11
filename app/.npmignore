@@ -9,5 +9,5 @@ app/**/*.js
 app/**/*.map
 platforms
 lib
-hooks
 
+*.tgz
