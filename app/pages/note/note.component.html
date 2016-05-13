@@ -1,8 +1,8 @@
-
 <StackLayout>
-    <Label text="Remind Me Next Time" class="title"></Label>
-    
-    <TextView text="{{ note }}"></TextView>
-
-   
+    <Label text="Remind Me" class="title"></Label>
+    <Label text="To:"></Label>
+    <TextView class="textbox" hint="What" [(ngModel)]="note"></TextView>
+    <Label text="Where:"></Label>
+    <TextView class="textbox" hint="Where" [(ngModel)]="location"></TextView>
+    <Button text="Save" (tap)="onSave()"></Button>
 </StackLayout>

@@ -5,14 +5,13 @@ import {Router} from "@angular/router-deprecated";
     selector: "my-app",
     template: `
 <StackLayout>
-    <Label text="Remind Me Next Time"
-      class="title"></Label>
     
-    <Button text="Next Time" (tap)="onRemindMe()" ></Button>
+    <Button class="circle" text="Next Time" (tap)="onRemindMe()" ></Button>
 
    
 </StackLayout>
 `,
+styleUrls: ["pages/app/app.component.css"]
 })
 
 export class AppComponent {
